@@ -15,27 +15,27 @@ clear and simple to read were incorporated along, with color combinations to mak
 the inventory or sending out alerts. The design decisions were crafted considering the users needs in mind and emphasizing simplicity and functionality. In a busy work setting. The user interface proved effective
 by enabling users to engage with the application and reducing the number of taps required to carry out key tasks. 
 
-How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
+3. How did you approach the process of coding your app? What techniques or strategies did you use? How could those techniques or strategies be applied in the future?
 
 The process of coding followed a step-by-step method where I began by working on tasks like creating the inventory list and then progressed to implementing advanced functions like SMS alerts and handling 
 databases efficiently using object-oriented programming (OOP). By organizing the code based on OOP principles, I made sure it was structured in a way that allowed for maintenance and modularity. Additionally, I 
 also employed strategies like dividing features into smaller units for testing purposes. This approach can be applied in projects to make sure that functionalities are developed gradually and are simpler to test
 and enhance as the application expands over time. 
 
-How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
+4. How did you test to ensure your code was functional? Why is this process important, and what did it reveal?
 
 During the development phase, I carried out unit testing to confirm that every feature functioned correctly after being implemented in the codebase. Automated tests were used to validate the functionalities,
 such as the inventory alert and database modifications, were functioning as intended. This testing phase is crucial as it detects bugs early on in the development process before they escalate into significant
 problems. Additionally, it identified logical flaws in data processing and highlighted instances where permissions for SMS alerts needed to be managed with greater caution to ensure seamless operation across 
 various versions of Android. 
 
-Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
+5. Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
 
 Dealing with database upgrades posed a hurdle as we had to ensure user data remained intact throughout the process. This became especially challenging when the app started crashing due to the addition of columns
 to the database. To tackle this issue, I devised a solution by incorporating migration logic into the onUpgrade() method. This approach enabled me to introduce columns without wiping out the existing table 
 structure. Such innovation in managing the database schema was crucial to safeguarding data integrity while paving the way for enhancements to the app's functionality. 
 
-In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+6. In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
 
 I excelled in setting up the inventory management system by developing a user-friendly interface for adding and editing inventory items in a grid layout format. This project showcased my skill in connecting a 
 database with the user interface while prioritizing performance and user friendliness. The SMS alert system for inventory levels highlighted my expertise in managing Android permissions and telecommunication 
